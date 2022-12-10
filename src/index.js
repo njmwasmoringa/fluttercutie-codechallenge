@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 });
 
 function getAllCuties(){
-    fetch('http://localhost:3000/characters')
+    fetch('https://my-json-server.typicode.com/njmwasmoringa/fluttercutie-codechallenge/characters')
     .then(resp=>resp.json())
     .then(cuties=>{
         console.log(cuties);
